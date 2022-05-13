@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<!-- import VIDALOKA and ROBOTO fonts from Google fonts-->
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vidaloka&display=swap" rel="stylesheet">
+
+<!-- import Press+Start and Rubik+Wet+Paint fonts from Google fonts-->
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Wet+Paint&display=swap"
+    rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+</head>
+
+
+<body>
+
+
+    <h1></h1>
+    <form id="questionsForm">
+        <div class="radio-toolbar">
+            <div><input class="buttonQuestion" type="radio" id="question-1" value="1" name="question" />
+                <label for="question-1"></label>
+            </div>
+            <div><input class="buttonQuestion" type="radio" id="question-2" value="2" name="question" />
+                <label for="question-2"></label>
+            </div>
+
+            <div><input class="buttonQuestion" type="radio" id="question-3" value="3" name="question" />
+                <label for="question-3"></label>
+            </div>
+        </div>
+        <div id="counterBlock">
+            <span id="labelcounter">Number of questions solved : </span><span id="compteur">0</span>
+        </div>
+        <div>
+            <input type="submit" id="Nextquestion" value="Next Question" disabled />
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+    <div id="goodanswer"></div>
+
+    <div id="timer"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
